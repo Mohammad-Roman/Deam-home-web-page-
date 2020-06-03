@@ -1,0 +1,194 @@
+/*header start*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*border: 1px solid red;*/
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    /*border: 1px solid black;*/
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+}
+
+.log img {
+    width: 100%;
+
+}
+
+.menu {
+    /* border: 1px solid black;*/
+    width: 70%;
+    float: right;
+}
+
+.menu ul {}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #0F467F;
+    text-decoration: none;
+    padding: 23px 38px;
+    display: inline-block;
+    transition: .3s
+}
+
+.menu ul li a:hover {
+    color: #A84CB3
+}
+
+/*header end*/
+
+/*banner start*/
+.banner {}
+
+.b_wrapper {
+    background-image: url(../images/wooden-house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+
+}
+
+.b_content {
+    width: 30%;
+    background-color: rgb(53, 48, 45, .7);
+    padding: 15px 25px;
+    margin: 70px 0 170px;
+}
+
+.b_content h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 50px;
+}
+
+.b_content p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+
+.b_content button {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(53, 48, 45, .7);
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.b_content button:hover {
+    background-color: white;
+    color: rgb(53, 48, 45, .7);
+}
+
+/*banner end*/
+/* service srart*/
+.service {
+    padding: 60px 0 80px;
+}
+
+.single:last-child {
+    margin: 0 auto;
+}
+
+.single {
+    width: 30%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    float: left;
+    margin-right: 3.1%;
+}
+
+.single h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #707B89;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+
+.single img {
+    width: 100%;
+}
+
+.single p {
+    font-family: sans-serif;
+    color: #707B89;
+    margin: 20px 0 30px;
+}
+
+.single button {
+    font-family: sans-serif;
+    color: white;
+    text-transform: capitalize;
+    background-color: #2D3F52;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.s_wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* service end*/
+
+/* footer start*/
+footer {
+    padding: 10px 0;
+}
+footer .footer_content{
+  text-align: center;  
+}
+footer .footer_content p{
+    font-weight: 300;
+    color: #64707C;
+    margin-bottom: 6px;
+    line-height: 5px;
+}
+footer .footer_content ul{
+    list-style-type: none;
+    margin-top: 18px;
+}
+footer .footer_content ul li{
+    display: inline-block;
+    
+}
+
+
+
+
